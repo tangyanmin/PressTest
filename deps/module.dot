@@ -1,0 +1,12 @@
+digraph module {
+    BoostParts[label="BoostParts v1.58.0\n26f60f5fe26bb8e33c872df8628f37ace5048c12"];
+    eigen[label="eigen v3.2.90\n425474e4e5f64962f566298eb707f0a0fac53492"];
+    gtest[label="gtest v1.7.0\nf5f002d2539a78a0a35331e27ff533f78817de3f"];
+    lmdb[label="lmdb v0.1.0\nb27c44ee66fb9bb68e20689575df853396cc8159"];
+    lmdb -> gtest;
+    multiindex_opq[label="multiindex_opq v0.1.0\na5c380888f4f810377882b27cb23887e3c6d3f73"];
+    multiindex_opq -> eigen;
+    multiindex_opq -> gtest;
+    multiindex_opq -> lmdb;
+    multiindex_opq -> BoostParts;
+}

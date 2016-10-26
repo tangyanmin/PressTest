@@ -1,0 +1,9 @@
+[package]
+name = "eigen"
+version = "3.2.90"
+authors = ["Eigen"]
+
+# no need to link
+[exports]
+includes = [".", "unsupported"]
+libs = []

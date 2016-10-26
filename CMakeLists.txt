@@ -1,0 +1,6 @@
+project(helloword)
+cmake_minimum_required(VERSION 2.8)
+add_definitions(-std=c++11 -ggdb -pthread)
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+add_subdirectory(src)

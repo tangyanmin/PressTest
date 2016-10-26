@@ -1,0 +1,8 @@
+[package]
+name = "BoostParts"
+version = "1.58.0"
+authors = ["Boost"]
+homepage = "http://www.boost.org/"
+
+[target.linux]
+link-libs = ["pthread"]
